@@ -169,9 +169,9 @@ public class Rf5Fix : BasePlugin
         iWindowMode = Config.Bind(
             "Set Custom Resolution",
             "WindowMode",
-            1,
+            2,
             new ConfigDescription(
-                "Set window mode. 1 = Fullscreen, 2 = Borderless, 3 = Windowed. Default is Borderless.",
+                "Set window mode. 1 = Fullscreen, 2 = Borderless, 3 = Windowed.",
                 new AcceptableValueRange<int>(1, 3)
             )
         );
